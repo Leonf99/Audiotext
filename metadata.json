@@ -1,0 +1,6 @@
+{
+  "name": "Vértice Autopeças - Visão 2036",
+  "description": "Plano estratégico de transição tecnológica e manufatura autônoma da Vértice Autopeças 2026-2036 (PRG100).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
