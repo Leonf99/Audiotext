@@ -1,9 +1,10 @@
-import { FileText, Grid, Maximize, Minimize } from 'lucide-react';
+import { FileText, Grid, Maximize, Minimize, Download } from 'lucide-react';
 
 interface HeaderProps {
   onJumpToSlide: (slideId: number) => void;
   onOpenTranscription: () => void;
   onOpenOverview: () => void;
+  onOpenExport: () => void;
   isFullscreen: boolean;
   onToggleFullscreen: () => void;
 }
@@ -12,6 +13,7 @@ export default function Header({
   onJumpToSlide,
   onOpenTranscription,
   onOpenOverview,
+  onOpenExport,
   isFullscreen,
   onToggleFullscreen,
 }: HeaderProps) {
@@ -59,20 +61,30 @@ export default function Header({
         </button>
       </nav>
 
-      {/* Zone 3: 1-2 primary actions */}
+      {/* Zone 3: Primary actions with prominent Free Export button */}
       <div className="flex items-center gap-2">
+        {/* Prominent Free Export Button */}
+        <button
+          onClick={onOpenExport}
+          className="px-3.5 py-1.5 text-xs font-semibold text-slate-950 bg-gradient-to-r from-sky-400 via-teal-300 to-emerald-400 hover:from-sky-300 hover:to-emerald-300 rounded-lg transition-all flex items-center gap-1.5 whitespace-nowrap cursor-pointer shadow-md shadow-sky-500/20 font-sans"
+          title="Baixar áudio MP3, slides em PDF e roteiro completo (100% gratuito)"
+        >
+          <Download className="w-3.5 h-3.5 text-slate-950" />
+          <span>Exportar Grátis</span>
+        </button>
+
         <button
           onClick={onOpenTranscription}
-          className="px-3 py-1.5 text-xs font-medium text-sky-300 bg-sky-950/60 border border-sky-800/60 rounded-lg hover:bg-sky-900/40 transition-colors flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
+          className="px-2.5 py-1.5 text-xs font-medium text-slate-300 bg-slate-900 border border-slate-800 rounded-lg hover:bg-slate-800 hover:text-white transition-colors flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
           title="Ver transcrição completa do áudio"
         >
-          <FileText className="w-3.5 h-3.5 text-sky-400" />
-          <span>Transcrição</span>
+          <FileText className="w-3.5 h-3.5 text-slate-400" />
+          <span className="hidden sm:inline">Roteiro</span>
         </button>
 
         <button
           onClick={onOpenOverview}
-          className="px-3 py-1.5 text-xs font-medium text-slate-200 bg-slate-900 border border-slate-800 rounded-lg hover:bg-slate-800 transition-colors flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
+          className="px-2.5 py-1.5 text-xs font-medium text-slate-300 bg-slate-900 border border-slate-800 rounded-lg hover:bg-slate-800 hover:text-white transition-colors flex items-center gap-1.5 whitespace-nowrap cursor-pointer"
           title="Ver índice de todos os 30 slides"
         >
           <Grid className="w-3.5 h-3.5 text-slate-400" />

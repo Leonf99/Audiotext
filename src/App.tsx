@@ -144,6 +144,7 @@ export default function App() {
         onJumpToSlide={handleJumpToSlide}
         onOpenTranscription={() => setIsTranscriptionOpen(true)}
         onOpenOverview={() => setIsOverviewOpen(true)}
+        onOpenExport={() => setIsExportAudioOpen(true)}
         isFullscreen={isFullscreen}
         onToggleFullscreen={toggleFullscreen}
       />
