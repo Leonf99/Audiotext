@@ -1,0 +1,216 @@
+# TRANSCRIÇÃO DE ÁUDIO & ROTEIRO COMPLETO DE APRESENTAÇÃO
+VÉRTICE AUTOPEÇAS — VISÃO 2036
+Projeto Integrado PRG100 (Entregas 1 e 2)
+Integrantes: Alberto Jesus Leon Fernandez, Daniel Prado Ancora da Luz, Enrico Terra, Mateus Ota, Vitor Lobba Pegoretti
+Docente: Prof. Dr. José Agostinho Baitello (Outubro de 2026)
+Total de slides: 30 slides
+
+======================================================================
+
+SLIDE 1 — CAPA
+Seção: Parte 0: Ponto de Partida
+TRANSCRIÇÃO DE ÁUDIO:
+"Atividade de Projeto Integrado, PRG100, entregas 1 e 2. Vértice Autopeças, Visão 2036: plano estratégico sobre como a empresa vai operar daqui a dez anos e as etapas de transição para chegar lá. Integrantes: Alberto Jesus Leon Fernandez, Daniel Prado Ancora da Luz, Enrico Terra, Mateus Ota e Vitor Lobba Pegoretti. Professor José Agostinho Baitello, outubro de 2026."
+
+--------------------------------------------------
+
+SLIDE 2 — ROTEIRO DA APRESENTAÇÃO
+Seção: Parte 0: Ponto de Partida
+TRANSCRIÇÃO DE ÁUDIO:
+"A apresentação tem três partes. A parte zero é o ponto de partida: quem é a Vértice em 2026 e por que ela precisa mudar. A parte um é a Visão 2036: produtos, clientes, fábrica, sistemas, segurança e parcerias. A parte dois é a transição 2026–2036: fases de implementação, roadmap por tecnologia e o que acontece em cada horizonte."
+
+--------------------------------------------------
+
+SLIDE 3 — PONTO DE PARTIDA (HOJE, 2026)
+Seção: Parte 0: Ponto de Partida
+TRANSCRIÇÃO DE ÁUDIO:
+"Hoje, em 2026, a Vértice fabrica discos de embreagem para montadoras e reposição. Produz em lotes, usa ERP legado e controla tudo em planilhas. O desafio é que veículos elétricos não usam embreagem, então a demanda do produto principal cai ao longo da década. A oportunidade é a frenagem regenerativa: ela aproveita nossa competência em materiais de atrito e cresce com a eletrificação. O gráfico mostra o ciclo de vida dos produtos de 2026 a 2036. As curvas são ilustrativas e não são projeção de mercado."
+
+--------------------------------------------------
+
+SLIDE 4 — PARTE 1: A VISÃO 2036
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Visão 2036: Como a Vértice estará operando daqui a dez anos."
+
+--------------------------------------------------
+
+SLIDE 5 — A VÉRTICE EM 2036
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Em 2036, a Vértice é parceira tecnológica das montadoras em sistemas de frenagem para veículos eletrificados. Cada peça é feita em fábrica autônoma, rastreada do projeto ao fim de vida e monitorada durante o uso. A proposta de valor em uma frase: frenagem segura e eficiente, entregue no prazo e com transparência total, do projeto ao fim de vida. Há três pilares: Produto inteligente: módulos de frenagem regenerativa com sensores e software embarcado. Fábrica autônoma: robôs, IoT e IA operando 24 horas por dia, sete dias por semana, com inspeção de 100% das peças. Dados compartilhados: a nuvem conecta montadora, fornecedores, oficinas e motorista."
+
+--------------------------------------------------
+
+SLIDE 6 — PORTFÓLIO DE PRODUTOS E SERVIÇOS EM 2036
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"O portfólio combina produto e serviço. O carro-chefe são os módulos de frenagem regenerativa. Eles integram freio de atrito e recuperação de energia, com sensores e software brake-by-wire. O produto legado são as embreagens para híbridos e reposição, uma linha enxuta produzida sob demanda em células flexíveis. O serviço digital é o monitoramento de desgaste. Sensores enviam desgaste e temperatura, e as frotas recebem alerta de troca antes da falha. O serviço circular é a remanufatura e reciclagem. As peças voltam no fim de vida, os componentes são recondicionados e os materiais são reaproveitados. O modelo de receita é venda de módulos e embreagens, mais assinatura de monitoramento para frotas, mais remanufatura."
+
+--------------------------------------------------
+
+SLIDE 7 — CLIENTES E FORMAS DE RELACIONAMENTO
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Com as montadoras (B2B), fazemos co-desenvolvimento desde o conceito do veículo, com engenharia simultânea. O gêmeo digital do módulo é compartilhado no projeto do carro. Um portal em nuvem e integração por API mostram pedidos, status e qualidade em tempo real. As entregas são sincronizadas com a linha (just-in-sequence), com carga rastreada por IoT. Para usuários finais e frotas, há um app com a saúde do sistema de freio e alertas de manutenção. Há uma rede de oficinas certificadas, com realidade aumentada guiando a troca, e um programa de devolução da peça usada (logística reversa). Os dados de uso realimentam o projeto da próxima geração."
+
+--------------------------------------------------
+
+SLIDE 8 — TRÊS TECNOLOGIAS-BASE: BENEFÍCIOS PARA O CLIENTE
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Robôs autônomos: AGVs, AMRs e cobots na produção e na movimentação interna. O valor para o cliente é mais precisão e repetibilidade, menos erros e retrabalho, lotes flexíveis e customizados, e prazos mais curtos e confiáveis. Internet das Coisas: sensores em máquinas, peças e veículos de transporte, coletando dados em tempo real. O valor é rastreabilidade do chão de fábrica à entrega, visibilidade das condições da carga e manutenção preditiva que dá previsibilidade. Computação em nuvem: produção, estoque e logística integrados em plataformas acessíveis a áreas internas e parceiros. O valor é status, relatórios e dashboards a qualquer hora, comunicação ágil por portal e API, e escalabilidade sem investimento do cliente."
+
+--------------------------------------------------
+
+SLIDE 9 — DEMAIS TECNOLOGIAS DA VISÃO 2036
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"IA e machine learning: planejamento, inspeção por visão computacional e manutenção preditiva, para decidir mais rápido e chegar a zero defeito. Gêmeo digital: produto, linha de produção e cadeia de suprimentos, para testar no virtual antes de investir. Manufatura aditiva 3D: protótipos, ferramentais e peças de reposição sob demanda, com menor lead time e menos estoque. Realidade aumentada e virtual: treinamento, manutenção e revisão de projeto com a montadora, para capacitar e colaborar à distância. Edge computing e 5G privado: processamento junto às máquinas e robôs, com controle em tempo real e baixa latência. Blockchain: registro de origem e histórico de cada peça, com rastreabilidade confiável e compartilhada. Big data (data lake): dados de fábrica, cadeia de suprimentos e uso em campo, para aprendizado contínuo do negócio. Energia limpa: solar e baterias de segunda vida na planta, para uma fábrica neutra em carbono."
+
+--------------------------------------------------
+
+SLIDE 10 — CICLO DE VIDA INTEGRADO DO PRODUTO (2036)
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"O ciclo tem seis etapas: 1. Concepção: a IA cruza dados de uso e tendências das montadoras. 2. Projeto CAD: o gêmeo digital simula frenagem, calor e desgaste. 3. Manufatura: células robotizadas e impressão 3D, sob demanda. 4. Montagem no carro: entrega sincronizada, com a peça ligada ao chassi do veículo. 5. Uso: sensores IoT e app acompanham o desempenho. 6. Fim de vida: remanufatura e reciclagem dos materiais. Dados de uso e materiais recuperados voltam para a concepção, formando um ciclo fechado."
+
+--------------------------------------------------
+
+SLIDE 11 — COMO A FÁBRICA OPERA EM 2036
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Um Centro de Operações Digital acompanha OEE, energia, qualidade e cadeia de suprimentos em tempo real e decide com apoio de IA. Os números-chave são operação contínua 24/7, 100% das peças inspecionadas e zero emissão líquida de carbono. Recebimento: AMRs descarregam e leem etiquetas RFID, e o insumo entra já vinculado ao lote do fornecedor. Produção: células flexíveis com robôs e cobots trocam de modelo sem parar a linha. Qualidade: visão computacional inspeciona cada peça, e desvios ajustam o processo na hora. Movimentação interna: AGVs e AMRs ligam estoque, células e expedição, sem empilhadeiras. Expedição: cargas montadas na sequência da linha da montadora, com sensores IoT."
+
+--------------------------------------------------
+
+SLIDE 12 — EQUIPAMENTOS DE PRODUÇÃO DA FÁBRICA 2036
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Células robotizadas: usinagem, estampagem e prensagem do material de atrito com robôs industriais. Cobots de montagem: montam e aparafusam os módulos ao lado dos técnicos. AMRs e AGVs: frota autônoma para toda a movimentação interna. Impressoras 3D: metal e polímero, para protótipos, ferramentais e peças de reposição. Inspeção e metrologia: câmeras de visão computacional e medição 3D em linha. Laboratório de testes: dinamômetros de frenagem e bancadas que testam o software embarcado."
+
+--------------------------------------------------
+
+SLIDE 13 — ARQUITETURA DOS SISTEMAS DE INFORMAÇÃO
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"A arquitetura tem cinco camadas. Clientes e fornecedores: portal web, API e EDI, app do motorista e oficinas com RA. Gestão do negócio: ERP, SCM, CRM e PLM. Operação da fábrica: MES, APS (otimização), WMS e QMS. Dados e inteligência: data lake, IA e analytics, gêmeo digital e blockchain. Infraestrutura: nuvem híbrida, edge computing, IoT e RFID, e 5G privado. Por cima de tudo está a cibersegurança, com zero trust em todas as camadas, do sensor ao portal."
+
+--------------------------------------------------
+
+SLIDE 14 — O QUE CADA SISTEMA FAZ
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Gestão administrativa e econômica: ERP em nuvem com IA, que cuida de finanças, custo por peça, capital de giro e orçamento, com previsão automática de cenários. Gestão da produção e otimização: MES e APS, que sequenciam ordens, otimizam o uso de máquinas e energia e medem OEE e qualidade em tempo real. Integração com fornecedores e clientes: SCM, CRM e portal/API, com previsão colaborativa, pedidos automáticos e status e indicadores de qualidade compartilhados. Rastreabilidade: ID único, RFID e blockchain, com a genealogia de cada peça, do lote de aço ao veículo e ao fim de vida. Simulação em todos os níveis: gêmeo digital e simulação de eventos discretos, que testam produto, processo, suprimentos e distribuição antes de investir."
+
+--------------------------------------------------
+
+SLIDE 15 — RASTREABILIDADE: A GENEALOGIA DA PEÇA
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"O insumo, que é o lote de aço ou composto, chega com certificado digital do fornecedor. Na peça, um código DataMatrix gravado a laser vira a identidade dela. No módulo, os resultados de teste e a versão do software ficam no registro. No veículo, o módulo é vinculado ao chassi do carro na montadora. No uso, sensores registram desgaste, temperatura e alertas. No fim de vida, retorno, remanufatura ou reciclagem fecham o histórico. O registro é compartilhado em blockchain. Montadora, fornecedores e recicladores consultam o mesmo histórico, sem planilhas paralelas. Em um recall, localizamos só as peças afetadas, pelo lote e pelo chassi."
+
+--------------------------------------------------
+
+SLIDE 16 — SIMULAÇÃO EM TODOS OS NÍVEIS
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Projeto: simulamos frenagem, calor e desgaste do módulo no gêmeo digital, integrado ao modelo do veículo da montadora. A decisão é aprovar o projeto com menos protótipos físicos. Fabricação: simulamos o gêmeo da linha, com layout, robôs, gargalos e consumo de energia. A decisão é investir só no que a simulação validou. Suprimentos: simulamos cenários de falta de insumo, câmbio e atraso de fornecedores. A decisão é definir estoque de segurança e fornecedores alternativos. Distribuição: simulamos rotas, sequenciamento JIS e capacidade dos operadores logísticos. A decisão é entregar no horário da linha da montadora."
+
+--------------------------------------------------
+
+SLIDE 17 — CIBERSEGURANÇA E PROPRIEDADE INTELECTUAL
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Na segurança digital: Arquitetura zero trust e redes separadas entre escritório e chão de fábrica (IEC 62443). Centro de operações de segurança 24/7, com detecção de ameaças por IA. Backups imutáveis e plano de recuperação testado todo semestre. Software do freio conforme as regras de cibersegurança veicular UNECE R155 e R156. Certificações ISO 27001 e TISAX, exigida pelas montadoras. Na propriedade intelectual: Patentes dos módulos de frenagem e dos algoritmos de controle. Acesso a CAD e gêmeos digitais por perfil, com registro e marca d'água. Contratos de confidencialidade com montadoras, startups e universidades. Dados de clientes e motoristas tratados conforme a LGPD. Treinamento anual de todos os colaboradores contra engenharia social."
+
+--------------------------------------------------
+
+SLIDE 18 — PARCERIAS
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Parcerias tecnológicas: provedor de nuvem e de cibersegurança, integrador de robótica e automação, startups de IA, sensores e baterias, e universidades e institutos SENAI de inovação. Parcerias operacionais: montadoras em co-desenvolvimento, fornecedores de aço e materiais de atrito em programa de desenvolvimento, operadores logísticos com rastreio IoT e a rede de oficinas certificadas. Outras parcerias: recicladores e parceiros de remanufatura, empresa de energia solar, escolas técnicas para formar a mão de obra e agências de fomento à inovação, como BNDES e Finep."
+
+--------------------------------------------------
+
+SLIDE 19 — CADEIA DE VALOR (PORTER)
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Nas atividades de apoio: Infraestrutura: ERP em nuvem com IA, com finanças, custos e orçamento em tempo real. Recursos humanos: academia digital, treinamento em RA e RV e gestão de competências. Desenvolvimento tecnológico: PLM, gêmeo digital, IA e impressão 3D para P&D. Aquisição: SCM com previsão colaborativa e rastreio de insumos em blockchain. Nas atividades primárias: Logística de entrada: previsão colaborativa, AMRs e RFID. Operações: células robotizadas, MES e gêmeo da linha. Logística de saída: just-in-sequence e carga com IoT. Marketing e vendas: co-desenvolvimento, CRM e portal. Serviços: monitoramento IoT, RA e remanufatura. A proposta de valor é frenagem segura e eficiente, no prazo, com transparência do projeto ao fim de vida."
+
+--------------------------------------------------
+
+SLIDE 20 — BUSINESS MODEL CANVAS 2036
+Seção: Parte 1: A Visão 2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Parcerias-chave: montadoras; nuvem e robótica; startups, universidades e SENAI; recicladores e fornecedores. Atividades-chave: engenharia de frenagem e manufatura autônoma. Recursos-chave: fábrica robotizada e IoT, patentes e gêmeo digital. Proposta de valor: frenagem segura e eficiente, entrega no prazo, rastreabilidade do projeto ao fim de vida e dados em tempo real. Relacionamento: co-desenvolvimento e CRM, mais app e alertas para frotas. Canais: portal e API, e oficinas certificadas. Segmentos: montadoras de elétricos e híbridos, frotas e motoristas, e mercado de reposição. Estrutura de custos: tecnologia, nuvem e automação; P&D, certificações, energia e pessoas. Fontes de receita: venda de módulos e embreagens, e assinatura de monitoramento e remanufatura."
+
+--------------------------------------------------
+
+SLIDE 21 — PARTE 2: TRANSIÇÃO 2026–2036
+Seção: Parte 2: Transição 2026–2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Transição 2026–2036: Etapas intermediárias: o que planejamos, pilotamos e implantamos a cada horizonte."
+
+--------------------------------------------------
+
+SLIDE 22 — FASES DE IMPLEMENTAÇÃO
+Seção: Parte 2: Transição 2026–2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Cada tecnologia passa por cinco fases: 1. Concepção: ideias iniciais e escolha da tecnologia. 2. Experimentação: prova de conceito, protótipo e projeto piloto. 3. Aprovação e ajustes: uso experimental e ajustes antes da implantação. 4. Uso em paralelo: o novo convive com o método anterior. 5. Larga escala: implantação definitiva na empresa toda. Cada iniciativa percorre as fases no seu ritmo. O roadmap mostra em que fase cada tecnologia estará em cada ano."
+
+--------------------------------------------------
+
+SLIDE 23 — ROADMAP 2026–2036
+Seção: Parte 2: Transição 2026–2036
+TRANSCRIÇÃO DE ÁUDIO:
+"O roadmap está dividido em horizonte tático, estratégico e de visão. Vou citar o ano em que cada iniciativa chega à larga escala (fase 5). ERP em nuvem e integração: começa na fase 1 em 2026 e chega à larga escala em 2030. Cibersegurança e PI: segue o mesmo caminho do ERP, com larga escala em 2030. IoT e manutenção preditiva: larga escala em 2031, com uma pausa na fase 2 em 2027–2028. Manufatura aditiva 3D: fase 4 em 2029–2030 e larga escala em 2031. MES e rastreabilidade por peça: fica na fase 1 em 2026–2027 e chega à larga escala em 2032. Robôs autônomos: larga escala em 2032. Módulo de frenagem regenerativa: larga escala em 2032. IA e otimização (APS): larga escala em 2032. Gêmeo digital: larga escala em 2033. Blockchain na cadeia: larga escala em 2034. Remanufatura e reciclagem: larga escala em 2034."
+
+--------------------------------------------------
+
+SLIDE 24 — HORIZONTE 1, 2026–2027: FUNDAÇÃO DIGITAL
+Seção: Parte 2: Transição 2026–2036
+TRANSCRIÇÃO DE ÁUDIO:
+"O foco tático, de 12 a 24 meses, é preparar dados, sistemas e segurança e provar as primeiras tecnologias. Em planejamento (fase 1): arquitetura-alvo de sistemas (ERP, MES e nuvem), política de cibersegurança e proteção de PI, e conceito do módulo regenerativo com uma montadora parceira. Em piloto e teste (fases 2 e 3): sensores IoT nas máquinas críticas, um AMR na rota almoxarifado → linha e protótipo do módulo regenerativo em bancada. Em implementação (fases 4 e 5): ERP migrado para a nuvem em paralelo ao legado, impressão 3D de ferramentais e dispositivos, e treinamento das equipes em dados e automação. Para o cliente, nesta etapa, há um portal web com status dos pedidos e documentos de qualidade."
+
+--------------------------------------------------
+
+SLIDE 25 — HORIZONTE 2, 2028–2031: ESCALA E NOVO PRODUTO
+Seção: Parte 2: Transição 2026–2036
+TRANSCRIÇÃO DE ÁUDIO:
+"O foco estratégico, de dois a cinco anos, é levar a automação para a fábrica toda e lançar a frenagem regenerativa. Em planejamento: blockchain com fornecedores e montadoras, programa de remanufatura e logística reversa, e gêmeo digital da cadeia de suprimentos. Em piloto e teste: gêmeo digital da linha de módulos, APS com IA no sequenciamento, e realidade aumentada na manutenção e no treinamento. Em implementação: MES e rastreabilidade por peça em todas as linhas, AMRs e cobots em toda a fábrica, manutenção preditiva nas máquinas críticas, e módulo regenerativo em série, em paralelo às embreagens. Para o cliente, há integração por API, previsão colaborativa e entregas sincronizadas com a linha."
+
+--------------------------------------------------
+
+SLIDE 26 — HORIZONTE 3, 2032–2036: OPERAÇÃO AUTÔNOMA
+Seção: Parte 2: Transição 2026–2036
+TRANSCRIÇÃO DE ÁUDIO:
+"A visão, de cinco a dez anos, é fábrica autônoma, economia circular e serviços digitais consolidados. Em planejamento: próxima geração com freio 100% by-wire e novos materiais, e novas plataformas, como ônibus e caminhões elétricos. Em piloto e teste: turno noturno com fábrica autônoma (lights-out) e assinatura de monitoramento para frotas. Em implementação: gêmeo digital em todos os níveis, rastreabilidade em blockchain do berço ao fim de vida, remanufatura e reciclagem em escala, e energia 100% renovável. Para o cliente, a Vértice se torna parceira tecnológica com dados em tempo real para montadora, oficina e motorista: a Visão 2036."
+
+--------------------------------------------------
+
+SLIDE 27 — EVOLUÇÃO DO PORTFÓLIO: META DE RECEITA
+Seção: Parte 2: Transição 2026–2036
+TRANSCRIÇÃO DE ÁUDIO:
+"O gráfico mostra a composição da receita de 2026 a 2036. As embreagens caem de 100% para 20%, numa linha enxuta para híbridos e reposição, sem novos investimentos de capacidade. A frenagem regenerativa chega a 50%, com produção em série a partir de 2030, e é o carro-chefe da empresa em 2036. Os serviços chegam a 30%, e o monitoramento por assinatura e a remanufatura trazem receita recorrente."
+
+--------------------------------------------------
+
+SLIDE 28 — PESSOAS E COMPETÊNCIAS
+Seção: Parte 2: Transição 2026–2036
+TRANSCRIÇÃO DE ÁUDIO:
+"A força de trabalho muda de várias formas: Menos tarefas manuais repetitivas e mais supervisão de células automatizadas. Novos perfis: técnicos de robótica, cientistas de dados e engenheiros de software embarcado. Requalificação com academia interna, RA e parceria com escolas técnicas. Transição planejada com as equipes atuais, sem deixar ninguém para trás. As seis competências-chave são pensamento analítico, IA e big data, resiliência e agilidade, liderança e colaboração, gestão de talentos e aprendizado contínuo."
+
+--------------------------------------------------
+
+SLIDE 29 — METAS 2036: OS 8 INDICADORES ESTRATÉGICOS
+Seção: Parte 2: Transição 2026–2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Medimos a jornada com oito metas: OEE de pelo menos 85% nas linhas automatizadas. 100% das peças com rastreabilidade individual. 70% a menos de paradas não planejadas em relação a 2026. 50% a menos de lead time do pedido à entrega. Pelo menos 80% da receita vinda de produtos e serviços novos. 100% da energia de fontes renováveis. Zero emissão líquida de carbono na fábrica. 100% de inspeção automática de qualidade. Essas são metas do plano, e a linha de base será medida em 2026, no início da fase 1."
+
+--------------------------------------------------
+
+SLIDE 30 — ENCERRAMENTO: DA EMBREAGEM À FRENAGEM INTELIGENTE
+Seção: Parte 2: Transição 2026–2036
+TRANSCRIÇÃO DE ÁUDIO:
+"Primeiro, o produto: trocamos um produto em declínio por sistemas de frenagem para veículos eletrificados, com serviços digitais. Segundo, a fábrica: robôs autônomos, IoT e nuvem tornam a operação autônoma, rastreável e previsível. Terceiro, a jornada: dez anos em três horizontes, com cada tecnologia indo de piloto a escala com risco controlado. Obrigado!"

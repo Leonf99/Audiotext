@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { SlideData } from '../types';
 import { SLIDES, AUTHORS, PROFESSOR, DATE_INFO } from '../data/slidesData';
-import { exportSlideAudioAsMp3 } from '../services/audioExportService';
+import { exportSlideAudioAsMp3, downloadFullMasterAudioMp3 } from '../services/audioExportService';
 import {
   X,
   Download,
@@ -19,6 +19,7 @@ import {
   Check,
   Sparkles,
   ExternalLink,
+  Disc,
 } from 'lucide-react';
 
 interface ExportAudioModalProps {
@@ -54,6 +55,22 @@ export default function ExportAudioModal({
     { id: 'Puck', name: 'Puck', description: 'Tom dinâmico, envolvente e moderno' },
     { id: 'Zephyr', name: 'Zephyr', description: 'Tom pausado, neutro e de alta clareza' },
   ];
+
+  const handleDownloadMaster = async () => {
+    setIsExportingCurrent(true);
+    setErrorMsg(null);
+    setSuccessMsg(null);
+
+    try {
+      await downloadFullMasterAudioMp3((status) => setCurrentProgressText(status));
+      setSuccessMsg('Áudio completo da apresentação (vertice_audio_completo_visao_2036.mp3) baixado com sucesso!');
+    } catch (err: any) {
+      setErrorMsg(err?.message || 'Falha ao baixar o áudio completo.');
+    } finally {
+      setIsExportingCurrent(false);
+      setCurrentProgressText('');
+    }
+  };
 
   const handleExportCurrent = async () => {
     setIsExportingCurrent(true);
@@ -308,6 +325,39 @@ ${'='.repeat(70)}
                     </button>
                   ))}
                 </div>
+              </div>
+
+              {/* Featured Action: Complete 30-Slide Master Audio File */}
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 rounded-xl bg-gradient-to-r from-sky-950/70 via-teal-950/50 to-slate-950 border border-sky-500/40 shadow-lg shadow-sky-500/10">
+                <div>
+                  <div className="flex items-center gap-2 mb-1">
+                    <Disc className="w-4 h-4 text-sky-400 animate-pulse" />
+                    <span className="text-xs font-bold text-slate-100">
+                      Áudio Completo da Apresentação (30 Slides Contínuos)
+                    </span>
+                    <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-sky-500/20 text-sky-300 font-bold border border-sky-500/30">
+                      15 MB MP3
+                    </span>
+                  </div>
+                  <div className="text-[11px] text-slate-300">
+                    Arquivo de áudio mestre pronto no repositório. Contém toda a narração do Slide 1 ao 30.
+                  </div>
+                  {isExportingCurrent && currentProgressText && (
+                    <div className="text-xs text-sky-400 font-mono mt-1 flex items-center gap-1.5">
+                      <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                      <span>{currentProgressText}</span>
+                    </div>
+                  )}
+                </div>
+
+                <button
+                  onClick={handleDownloadMaster}
+                  disabled={isExportingCurrent || isExportingAll}
+                  className="px-4 py-2.5 rounded-lg bg-gradient-to-r from-sky-400 via-teal-300 to-emerald-400 hover:from-sky-300 hover:to-emerald-300 text-slate-950 font-bold text-xs flex items-center justify-center gap-2 transition-all cursor-pointer shrink-0 shadow-md shadow-sky-400/20"
+                >
+                  <Download className="w-4 h-4 text-slate-950" />
+                  <span>Baixar Áudio Completo (.mp3)</span>
+                </button>
               </div>
 
               {/* Action 1: Export Current Slide */}

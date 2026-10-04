@@ -3,6 +3,8 @@ import { createServer as createViteServer } from 'vite';
 import { GoogleGenAI } from '@google/genai';
 import dotenv from 'dotenv';
 import { Mp3Encoder } from '@breezystack/lamejs';
+import fs from 'fs';
+import path from 'path';
 
 dotenv.config();
 
@@ -74,10 +76,20 @@ function convertWavBufferToMp3(wavBuffer: Buffer, kbps: number = 128): Buffer {
   return Buffer.concat(mp3Chunks);
 }
 
-// Endpoint to generate and export TTS audio as .mp3 using Gemini TTS
+// Endpoint to generate and export TTS audio as .mp3
 app.post('/api/tts/export-mp3', async (req, res) => {
   try {
     const { text, voiceName = 'Kore', slideNumber = 1 } = req.body;
+
+    const padded = String(slideNumber).padStart(2, '0');
+    const localSlidePath = path.resolve(process.cwd(), 'public', 'audio', `vertice_slide_${padded}.mp3`);
+    if (fs.existsSync(localSlidePath)) {
+      const audioBuf = fs.readFileSync(localSlidePath);
+      res.setHeader('Content-Type', 'audio/mp3');
+      res.setHeader('Content-Disposition', `attachment; filename="vertice_slide_${padded}.mp3"`);
+      res.setHeader('Content-Length', audioBuf.length);
+      return res.end(audioBuf);
+    }
 
     if (!text || typeof text !== 'string') {
       return res.status(400).json({ error: 'Texto para síntese não informado.' });
